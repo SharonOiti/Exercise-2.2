@@ -1,0 +1,97 @@
+/* use border-box in all elements*/
+*
+{
+    box-sizing: border-box;
+}
+
+/*make the profile picture rounded,and add a border.*/
+.image-container img{
+    border-radius: 100%;
+}
+.border-dotted{
+    border:2px dotted #7617a9
+}
+
+/* Styling for the entire document */
+/*add margin,and border,and padding ro the body*/
+body{
+    background-color: #ff9500;
+    color: black;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 2rem;
+    padding: 2rem;
+    border: 2px #ff9500;
+    line-height: 2;
+
+}
+
+/*styling my headings*/
+h1{
+    font-family:"Gluten", cursive;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow:3px 3px 5px rgba(7, 0, 204, 0.7) ;
+}
+
+/*stylying for sub-heading*/
+h2{
+    font-size: 1em;
+    text-transform: uppercase;
+    text-decoration: green underline;
+    
+}
+
+/*styling for sub-section text*/
+h3{
+    font-size: small;
+    font-weight: bold;
+    text-decoration: green wavy underline;
+}
+
+h1, h2, h3{
+    padding-bottom: 1.5rem;
+}
+
+p, li, table, form{
+    font-size: 0.8rem;
+}
+
+/*styling for paragraph*/
+p{
+    font-size: 0.8rem;
+    text-align: justify;
+
+}
+
+/*styling for hyperlink*/
+a{
+    text-decoration: rgb(20, 186, 20) wavy underline;
+    color: #7617a9;
+}
+
+main section, footer section{
+    margin: 3rem 0
+}
+
+/* Separate sections with margins to utilize collapsing margins. Also, use borders to space them apart. */
+/* Adjust form elements to capture same look and feel. */
+form input, form textarea, form select{
+    padding: 0.1rem 0.2rem;
+    color: #ff9500;
+    border: 2px dotted #ff9500;
+    background-color: black;
+}
+
+form button{
+    padding: 0.5rem 1rem;
+  color: #ff9500;
+  border: 1px solid #ff9500;
+  background-color: rgb(88, 31, 210);
+}
+
+/* Remove outlines from form elements, ensuring a cleaner look. */
+form input,form textarea{
+    outline:none;
+}
